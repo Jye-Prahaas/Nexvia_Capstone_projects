@@ -1,0 +1,28 @@
+{
+  "retraining_required": true,
+  "dataset_drift_detected": true,
+  "share_of_drifted_columns": 0.7059,
+  "drifted_columns": [
+    "step",
+    "amount",
+    "oldbalanceOrg",
+    "amount_log",
+    "amount_to_origin_balance",
+    "amount_exceeds_origin_balance",
+    "origin_balance_is_zero",
+    "is_cash_out",
+    "type_CASH_OUT",
+    "type_DEBIT",
+    "previous_transaction_count",
+    "previous_average_amount"
+  ],
+  "feature_count": 17,
+  "reference_rows": 20000,
+  "current_rows": 3887,
+  "drift_threshold": 0.3,
+  "p_value_threshold": 0.05,
+  "drift_method": "Kolmogorov-Smirnov test",
+  "reference_dataset": "C:\\Users\\Admin\\Documents\\Financial_Fraud_Classifier\\feature_store\\fraud_features\\feature_repo\\data\\fraud_features.parquet",
+  "current_dataset": "C:\\Users\\Admin\\Documents\\Financial_Fraud_Classifier\\data\\monitoring\\kafka_transactions.parquet",
+  "report": "C:\\Users\\Admin\\Documents\\Financial_Fraud_Classifier\\reports\\data_drift_report.html"
+}

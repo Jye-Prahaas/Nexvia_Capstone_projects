@@ -1,0 +1,61 @@
+[
+  {
+    "case_id": "CASE-20261027193905120481",
+    "created_at": "2026-10-27T19:39:05",
+    "transaction_type": "CASH_OUT",
+    "amount": 100000.0,
+    "prediction": "FRAUD",
+    "fraud_probability": 0.955038,
+    "status": "Investigating",
+    "feedback": "Confirmed Fraud",
+    "payload": {
+      "step": 600,
+      "transaction_type": "CASH_OUT",
+      "amount": 100000.0,
+      "oldbalanceOrg": 100000.0,
+      "oldbalanceDest": 0.0,
+      "previous_transaction_count": 0,
+      "previous_average_amount": 0.0
+    },
+    "updated_at": "2026-10-27T19:40:48"
+  },
+  {
+    "case_id": "CASE-20261027193902675343",
+    "created_at": "2026-10-27T19:39:02",
+    "transaction_type": "CASH_OUT",
+    "amount": 100000.0,
+    "prediction": "FRAUD",
+    "fraud_probability": 0.955038,
+    "status": "Investigating",
+    "feedback": "Confirmed Fraud",
+    "payload": {
+      "step": 600,
+      "transaction_type": "CASH_OUT",
+      "amount": 100000.0,
+      "oldbalanceOrg": 100000.0,
+      "oldbalanceDest": 0.0,
+      "previous_transaction_count": 0,
+      "previous_average_amount": 0.0
+    },
+    "updated_at": "2026-11-04T00:55:53"
+  },
+  {
+    "case_id": "CASE-20261027193705312131",
+    "created_at": "2026-10-27T19:37:05",
+    "transaction_type": "TRANSFER",
+    "amount": 5000.0,
+    "prediction": "LEGITIMATE",
+    "fraud_probability": 7e-06,
+    "status": "Resolved",
+    "feedback": "Pending",
+    "payload": {
+      "step": 600,
+      "transaction_type": "TRANSFER",
+      "amount": 5000.0,
+      "oldbalanceOrg": 10000.0,
+      "oldbalanceDest": 2000.0,
+      "previous_transaction_count": 0,
+      "previous_average_amount": 0.0
+    }
+  }
+]

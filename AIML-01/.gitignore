@@ -1,0 +1,17 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated datasets and feature files
+*.parquet
+*.db
+
+# Large raw datasets
+data/raw/
+
+# Temporary files
+*.log
+.DS_Store

@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+joblib
+numpy
+pandas
+scikit-learn
+xgboost
+streamlit
+requests
+kafka-python
+evidently
+scipy

@@ -1,0 +1,16 @@
+feature,importance
+amount_exceeds_origin_balance,0.39019814
+amount_to_origin_balance,0.20721136
+type_CASH_IN,0.18140572
+type_PAYMENT,0.17160068
+type_DEBIT,0.020684209
+origin_balance_is_zero,0.0063849604
+is_transfer,0.0055879573
+amount,0.004871452
+amount_log,0.0035071005
+oldbalanceOrg,0.0028196517
+is_cash_out,0.0019627025
+oldbalanceDest,0.0011904773
+type_TRANSFER,0.0010972879
+step,0.00082451134
+type_CASH_OUT,0.000653867
