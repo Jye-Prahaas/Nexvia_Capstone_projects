@@ -1,0 +1,37 @@
+# Core
+numpy
+pandas
+scipy
+Pillow
+
+# Deep Learning
+
+monai
+
+# Computer Vision
+opencv-python-headless
+
+# Medical Imaging
+pydicom
+nibabel
+
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+requests
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+tqdm
+
+# Testing
+pytest
+httpx

@@ -1,0 +1,12 @@
+{
+    "89dff69a-70cb1c39-0a3d7315-0224787f-a29804fe": {
+        "scan_id": "bb444bbdc6c4",
+        "filename": "DICOM CT Series (107 slices)",
+        "tumour_detected": false,
+        "tumour_voxels": 0,
+        "tumour_volume_ml": 0.0,
+        "confidence": null,
+        "device": "cpu",
+        "processed_at": "2026-11-09 16:02:09"
+    }
+}

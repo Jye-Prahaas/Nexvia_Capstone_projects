@@ -1,0 +1,44 @@
+services:
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+
+    container_name: medical-imaging-backend
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PYTHONPATH: /app
+      ORTHANC_URL: http://host.docker.internal:8042
+
+    volumes:
+      # Model checkpoints: persistent and read-only
+      - ./models:/app/models:ro
+
+      # Persistent runtime results
+      - ./data/docker_runtime:/app/data
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    restart: unless-stopped
+
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+
+    container_name: medical-imaging-frontend
+
+    ports:
+      - "5173:80"
+
+    depends_on:
+      - backend
+
+    restart: unless-stopped

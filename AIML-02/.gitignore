@@ -1,0 +1,18 @@
+# Large medical imaging datasets
+/data/Task06_Lung/imagesTs.zip
+/data/Task06_Lung/imagesTr.zip
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Node dependencies
+node_modules/
+
+# Virtual environments
+venv/
+.venv/
+
+# Temporary files
+*.log
+.DS_Store
